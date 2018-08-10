@@ -54,9 +54,9 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
 
 ## Code Contribution
 
-- Project Repository: https://gitlab.com/sosy-lab/software/cpachecker
+- Project Repository: [https://gitlab.com/sosy-lab/software/cpachecker]()
 
-- Commits: https://github.com/sosy-lab/cpachecker/commits?author=nandanwar@4712c6d2-40bb-43ae-aa4b-fec3f1bdfe4c
+- Commits: [https://github.com/sosy-lab/cpachecker/commits?author=nandanwar@4712c6d2-40bb-43ae-aa4b-fec3f1bdfe4c]()
 
 - Deployment: [Link]()
 
