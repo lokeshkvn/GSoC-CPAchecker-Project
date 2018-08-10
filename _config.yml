@@ -1,1 +1,7 @@
 theme: jekyll-theme-dinky
+title: "GSoC final Submission"
+author: lokeshkvn
+github:
+  is_project_page: false
+  repository_url: https://gitlab.com/sosy-lab/software/cpachecker/
+  
