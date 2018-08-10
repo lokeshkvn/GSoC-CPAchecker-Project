@@ -35,15 +35,15 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
  
 - **Milestone 1**=> Upgrade of AngularJS to latest build: Upgraded the version of angularJS v1.6.5 to v1.7.0 (Major stable release on 30 June 2018). 
  
-- **Milestone 2**=> Upgrading versions of all the 3​rd​ party libraries used: The versions of third party libraries used in the web application is now very old (Specified later), so some of the functionality of the app may not work properly. So I have upgraded it to its latest version.
+- **Milestone 2**=> Upgraded versions of all the 3rd party libraries used: The versions of third party libraries used in the web application is now very old (Specified later), so some of the functionality of the app may not work properly. So I have upgraded it to its latest version.
  
 - **Milestone 3**=> User Interface upgraded to follow modern architecture and Additional features to web interface of application: 
   - Bootstrapping and css to required elements and Refactoring of page layout as per latest standards. 
   - Collapsing vertical navigation on the left-hand side of the page which contains a table-like representation of the error-path data. 
   - Tooltips to the buttons and elements on the page to help user know the functionalities of the web applications better.  
   - Sortable & Responsive Table for logs, statistics and configuration tab. 
-  - Make divider between left and right half movable with the mouse. 
-  - Add a "full screen mode" button. 
+  - Divider between left and right half movable with the mouse. 
+  - Added a "full screen mode" button. 
  
 ● Automation Testing of Application using Jasmine and Protractor framework: Writing of automation tests functions for the web application in Jasmine framework and run the automation test. There will be two types of testing:
 
@@ -66,7 +66,7 @@ Unit testing part of some functions of D3.js and Dargre-D3 graph from Milestone-
 - Code archtecture for testing needed is BDD/TDD.
 - There are several nested functions.
 - Dynamic data for generating graph.
-<br/>If we overcome the above drawbacks we can unit test the reamining functions.
+<br/>If we overcome the above drawbacks we can unit test the remaining functions.
 
 ## Final Words
 
