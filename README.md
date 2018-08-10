@@ -1,7 +1,7 @@
 # GSoC CPAchecker Poject - Final Work Submission
 
 <p align="center">
-<img src="https://github.com/lokeshkvn/GSoC_CPAchecker_Project/blob/master/gsoc-title-new2.JPG" width="500px" /> 
+<img src="https://github.com/lokeshkvn/GSoC_CPAchecker_Project/blob/master/gsoc-title-new2.jpg" width="500px" /> 
 </p>
 
 ## Introduction and Background: 
@@ -19,7 +19,7 @@
 
 
 <p align="center">
-<img src="https://github.com/lokeshkvn/GSoC_CPAchecker_Project/blob/master/unnamed.PNG" /> 
+<img src="https://github.com/lokeshkvn/GSoC_CPAchecker_Project/blob/master/unnamed.png" /> 
 </p>
 
 
