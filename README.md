@@ -1,6 +1,8 @@
 # GSoC CPAchecker Poject - Final Work Submission
 
-<img src="https://camo.githubusercontent.com/ed508e9c66d718f76333215a139af24f8bb8fa8d/68747470733a2f2f6d75736573636f72652e6f72672f73697465732f6d75736573636f72652e6f72672f66696c65732f4361707475726525323064253237652543432538316372616e253230323031362d30332d303125323030392e34382e31315f302e706e67" align="center"/>
+<p align="center">
+<img src="https://github.com/lokeshkvn/GSoC_CPAchecker_Project/blob/master/gsoc-title-new2.jpg" alt="drawing" width="500px" /> 
+</p>
 
 ## Introduction and Background: 
  
@@ -14,6 +16,12 @@
 - Year of Study: Final Year
 - Github: [github.com/lokeshkvn](github.com/lokeshkvn)
 - Website: [lokeshnandanwar.wordpress.com](lokeshnandanwar.wordpress.com)
+
+
+<p align="center">
+<img src="https://github.com/lokeshkvn/GSoC_CPAchecker_Project/blob/master/unnamed.png" /> 
+</p>
+
 
 ### Project Information:
 
@@ -58,18 +66,9 @@ Unit testing part of some functions of D3.js and Dargre-D3 graph from Milestone-
 - Code archtecture for testing needed is BDD/TDD.
 - There are several nested functions.
 - Dynamic data for generating graph.
-If we overcome the above drwabacks we can unit test the reamining functions.
+<br/>If we overcome the above drawbacks we can unit test the reamining functions.
 
 ## Final Words
 
 GSoC was a wonderful experience for me. I now feel a bit more comfortable with the large codebase to work on. I learned a lot of useful stuff like Docker, GitLab Continous Integration, SVN for version control, and much more stuff. I also learn that automated testing help us a lot to monitor and prevent bugs in our code before it can be merged in upstream repository. I loved working on a really cool open-source project like CPAchecker this summer and am very thankful to Google for providing me this opportunity.
 I will try my best to regularly contribute CPAchecker in a free time. Thanks to Philipp Wender and various others in SoSy Lab team for such a wonderful experience and the knowledge.
-
-
-
-
-
-
-
-
-
