@@ -167,9 +167,8 @@ Unit testing part of some functions of D3.js and Dargre-D3 graph from Milestone-
 - Code archtecture for testing needed is BDD/TDD.
 - There are several nested functions.
 - Dynamic data for generating graph.
-<br/>
-If we overcome the above drawbacks we can unit test the remaining functions.
 
+If we overcome the above drawbacks we can unit test the remaining functions.
 
 ## Final Words:
 
