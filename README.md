@@ -14,7 +14,7 @@
 - Country of Residence: India
 - University: National Institute of Technology Durgapur
 - Major: Information Technology
-- Year of Study: B.TEch, Final Year
+- Year of Study: B.Tech, Final Year
 - Github: [github.com/lokeshkvn](https://github.com/lokeshkvn)
 - Website: [lokeshnandanwar.wordpress.com](https://lokeshnandanwar.wordpress.com)
 
@@ -35,11 +35,11 @@ CPAchecker produces as result a report about its verification work. This report 
 The major goal of this project idea is to upgrade AngularJS and to write tests for the functionality of this report using an appropriate framework for automated tests. The details of all the goals which are delivered for this project is as below: 
  
  
-- **Milestone 1**=> Upgrade of AngularJS to latest build: Upgraded the version of angularJS v1.6.5 to v1.7.0 (Major stable release on 30 June 2018). 
+- **Milestone 1**: Upgrade of AngularJS to latest build: Upgraded the version of angularJS v1.6.5 to v1.7.0 (Major stable release on 30 June 2018). 
  
-- **Milestone 2**=> Upgraded versions of all the 3rd party libraries used: The versions of third party libraries used in the web application is now very old (Specified later), so some of the functionality of the app may not work properly. So I have upgraded it to its latest version.
+- **Milestone 2**: Upgraded versions of all the 3rd party libraries used: The versions of third party libraries used in the web application is now very old (Specified later), so some of the functionality of the app may not work properly. So I have upgraded it to its latest version.
  
-- **Milestone 3**=> User Interface upgraded to follow modern architecture and Additional features to web interface of application: 
+- **Milestone 3**: User Interface upgraded to follow modern architecture and Additional features to web interface of application: 
   - Bootstrapping and css to required elements and Refactoring of page layout as per latest standards. 
   - Collapsing vertical navigation on the left-hand side of the page which contains a table-like representation of the error-path data. 
   - Tooltips to the buttons and elements on the page to help user know the functionalities of the web applications better.  
@@ -47,11 +47,11 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
   - Divider between left and right half movable with the mouse. 
   - Added a "full screen mode" button. 
  
-● Automation Testing of Application using Jasmine and Protractor framework: Writing of automation tests functions for the web application in Jasmine framework and run the automation test. There will be two types of testing:
+● Automated Testing of Application using Jasmine and Protractor framework: Writing of automation tests functions for the web application in Jasmine framework and run the automation test. There will be two types of testing:
 
-- **Milestone 4** => Unit Testing of Application using Jasmine/Karma framework.
+- **Milestone 4**: Unit Testing of Application using Jasmine/Karma framework.
 
-- **Milestone 5** => End to End Testing of application using Protractor Framework.
+- **Milestone 5**: End to End Testing of application using Protractor Framework.
 
 
 ## Timeline:
@@ -120,7 +120,7 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
 
 ### Week 9 (July 10, 2018 - July 16, 2018)
 
-- Automated generation of testReport.html with serach and replace in report.html file
+- Automated generation of testReport.html with search and replace in report.html file
 - Added CI for unit testing of report in gitlab-ci.yml
 - Fixed slider error in error path section and external file section.
 
@@ -137,15 +137,15 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
 - Added e2e testing for all the controllers. 
 - Added Tests for e2e testing  error path section and external file sections.
 - Added testing for graphs and content inside tabs.
-- Fixed trunckated error code and source code bug.
+- Fixed truncated error code and source code bug.
 
 ### Week 12 (August 1, 2018 - August 9, 2018)
 
 - Created docker image for java and nodejs.
-- Added stage fot creating counterexample report from CPAcheker for e2e testing in CI
+- Added stage for creating counterexample report from CPAcheker for e2e testing in CI
 - Completion of Milestone 5 (e2e testing).
 - Added e2e tests in GitLab CI.
-- Added report genrator for e2e testing using external plugin
+- Added report generator for e2e testing using external plugin
 - Added Unit testing report generator using karma-html-reporter
 - Added documentation for Javascript Report Testing.
 
@@ -172,5 +172,5 @@ If we overcome the above drawbacks we can unit test the remaining functions.
 
 ## Final Words:
 
-GSoC was a wonderful experience for me. I now feel a bit more comfortable with the large codebase to work on. I learned a lot of useful stuff like Docker, GitLab Continous Integration, SVN for version control, and much more stuff. I also learn that automated testing help us a lot to monitor and prevent bugs in our code before it can be merged in upstream repository. I loved working on a really cool open-source project like CPAchecker this summer and am very thankful to Google for providing me this opportunity.
+GSoC was a wonderful experience for me. I now feel a bit more comfortable with the large codebase to work on. I learned a lot of useful stuff like Docker, GitLab Continous Integration, SVN for version control, and much more stuff. I also got to know that automated testing help us a lot to monitor and prevent bugs in our code before it can be merged in upstream repository. I loved working on a really cool open-source project like CPAchecker this summer and am very thankful to Google for providing me this opportunity.
 I will try my best to regularly contribute CPAchecker in a free time. I would encourage everyone reading this to give the CPAchecker a try and contribute if possible. Thanks to **Philipp Wender** and various others in SoSy Lab team for such a wonderful experience and the knowledge.
