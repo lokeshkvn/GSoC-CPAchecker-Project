@@ -56,11 +56,98 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
 
 ## Timeline:
 
-- **Week 1 - Week 4**: 
+### Week 1 (May 14 - May 19, 2018)
 
-- **Week 5 - Week 8**: 
+- Setting-up and deployment of the application.
+- Creating branch for development and test commit.
+- Upgrade of jQuery library and removal of deprecated functions.
+- Addition of Style Guide for HTML/CSS/Javascript for Report Template as per Google's Style guide.
+- Upgrade of D3.js and Dagre-D3 libraries.
+- Replacement of deprecated methods/functions.
+- Formatted  HTML/CSS/Javascript files of Report Template as per Google's Style and coding guidelines.
 
-- **Week 9 - Week 12**:
+### Week 2 (May 20 - May 25, 2018)
+
+- Exploration of Documentation of Bootstrap v4.1.1
+- Upgraded the Bootstrap library to v4.1.1
+- Added popper.js and fontawesome.css libraries as a support for Bootstrap v4.1.1 ( Because of breaking changes).
+- Removed and Replaced deprecated elements and fixed bugs caused by upgradation of Bootstrap library.
+- Upgraded Google Prettify code library to latest version dated 29-4-2018.
+- Added new theme for Source code and Error code and done some refactoring for best UX.
+
+### Week 3 (May 26 - June 1, 2018)
+
+- Upgrade of Angularjs to v1.7.0
+- Refactored HTML elements with the latest bootstrap.
+- Updated elements of the HTML (buttons, labels, dropdown,etc).
+
+### Week 4 (June 2 - June 8, 2018)
+	
+- fixed Modal dialogue hide() property. 
+- Added User interface for a Modal dialogue box.
+- Updated navigation bar and toolbar. 
+- Refactored header of the report template.
+- Updated background color of code sections.
+
+### Week 5 (June 11, 2018 - June 17, 2018)
+
+- Collapsing Vertical navigation on the left-hand side of the page which contains a table-like representation of the error-path data.
+- minor fix of google-code-prettify library
+- Addition of toggle button to show/hide error path section
+
+### Week 6 (June 18, 2018 - June 24, 2018)
+	
+- Tooltips to the all the buttons and some required elements on the page using popper.js 
+- Added new tooltip UI for the ARG and CFA graph nodes and edges
+- Added rounded edges for rectangles in ARG graph
+- Added fullscreen mode feature
+
+### Week 7 (June 25, 2018 - July 1, 2018)
+
+- addition of Datatables library
+- Table view for logs, statistics and configuration tabs.
+- Added indentation to the statistics table for hierarchical view and new column for additional value in statistics table
+- Error Fixed : google prettify code loading from external server cdn.rawgit.com
+- Error Fixed : local variable which is not in use and Formatted code
+
+### Week 8 (July 2, 2018 - July 9, 2018)
+
+- Setting up of environment, addition of dependencies and Sample test case for Unit testing using Jasmine/Karma/PhantomJS
+- Added third party dependencies using bower and loaded report.js for unit testing
+- Added jasmine-jquery plugin for DOM testing
+- Mock testReport.js and testReport.html as Mock files for Unit testing
+- Primary unit tests cases for all controllers and init function
+
+### Week 9 (July 10, 2018 - July 16, 2018)
+
+- Automated generation of testReport.html with serach and replace in report.html file
+- Added CI for unit testing of report in gitlab-ci.yml
+- Fixed slider error in error path section and external file section.
+
+### Week 10 (July 17, 2018 - July 23, 2018)
+
+- Completed Unit testing of the Javascrpit report.
+- Completion of Milestone 4.
+- Installed protractor and selenium driver for e2e testing.
+- Added E2E testing setup and base test case.
+- Fixed Bug in statistics table
+
+### Week 11 (July 24, 2018 - August 31, 2018)
+
+- Added e2e testing for all the controllers. 
+- Added Tests for e2e testing  error path section and external file sections.
+- Added testing for graphs and content inside tabs.
+- Fixed trunckated error code and source code bug.
+
+### Week 12 (August 1, 2018 - August 9, 2018)
+
+- Created docker image for java and nodejs.
+- Added stage fot creating counterexample report from CPAcheker for e2e testing in CI
+- Completion of Milestone 5 (e2e testing).
+- Added e2e tests in GitLab CI.
+- Added report genrator for e2e testing using external plugin
+- Added Unit testing report generator using karma-html-reporter
+- Added documentation for Javascript Report Testing.
 
 
 ## Code Contribution:
@@ -87,4 +174,4 @@ If we overcome the above drawbacks we can unit test the remaining functions.
 ## Final Words:
 
 GSoC was a wonderful experience for me. I now feel a bit more comfortable with the large codebase to work on. I learned a lot of useful stuff like Docker, GitLab Continous Integration, SVN for version control, and much more stuff. I also learn that automated testing help us a lot to monitor and prevent bugs in our code before it can be merged in upstream repository. I loved working on a really cool open-source project like CPAchecker this summer and am very thankful to Google for providing me this opportunity.
-I will try my best to regularly contribute CPAchecker in a free time. Thanks to **Philipp Wender** and various others in SoSy Lab team for such a wonderful experience and the knowledge.
+I will try my best to regularly contribute CPAchecker in a free time. I would encourage everyone reading this to give the CPAchecker a try and contribute if possible. Thanks to **Philipp Wender** and various others in SoSy Lab team for such a wonderful experience and the knowledge.
