@@ -8,7 +8,7 @@
  
 - Organisation Name: [Software and Computational Systems Lab, LMU Munich, Germany](https://www.sosy-lab.org/) 
 - Project Idea: [CPAchecker - Upgrade of AngularJS, Refactoring User Interface and automated tests for verification report](https://summerofcode.withgoogle.com/projects/#4562331867021312).
-- Project Proposal: https://docs.google.com/document/d/160ILV_sB2MWPtB0YNyJex_Vm5w7HQN8lvrWY1ub9SDE/edit?usp=sharing 
+- Project Proposal: [Link](https://docs.google.com/document/d/160ILV_sB2MWPtB0YNyJex_Vm5w7HQN8lvrWY1ub9SDE/edit?usp=sharing) 
 - Mentor: Philipp Wender
 - Name: Lokesh Nandanwar
 - Country of Residence: India
@@ -29,6 +29,16 @@
 CPAchecker is an award-winning open-source framework for the verification of software. It is written in Java and based on a highly modular architecture that allows to develop and combine a wide range of different analyses. CPAchecker is used for verification of the Linux kernel and has helped to find more than 50 bugs in the kernel. 
 CPAchecker produces as result a report about its verification work. This report is a web application based on AngularJS and D3. The basic goal of this project is to upgrade AngularJS and to write tests for the functionality of this report using an appropriate framework for automated tests. 
 
+
+## Summary of Achievements:
+
+- AngularJS and other libraraies upgraded to latest build.
+- User Interface upgraded to follow modern architecture and latest standards.
+- Addition of 61 unit test cases and 47 specs for end-to-end tests.
+- Automation of [Unit testing](https://gitlab.com/sosy-lab/software/cpachecker/-/jobs/88612239) and [End-to-end testing](https://gitlab.com/sosy-lab/software/cpachecker/-/jobs/88612240) using Gitlab CI to reduce the defects and errors that were made during the development phases.
+- Test coverage with generation of [reports](https://gitlab.com/sosy-lab/software/cpachecker/-/jobs/88612239/artifacts/browse/src/org/sosy_lab/cpachecker/core/counterexample/) and [screenshots](https://gitlab.com/sosy-lab/software/cpachecker/-/jobs/88612240/artifacts/browse/src/org/sosy_lab/cpachecker/core/counterexample/).
+- [Coding guidelines](https://gitlab.com/sosy-lab/software/cpachecker/blob/trunk/doc/ReportTemplateStyleGuide.md) and [Testing](https://gitlab.com/sosy-lab/software/cpachecker/blob/trunk/doc/JavascriptTesting.md) Documentation.
+-  Increased maintainability.
 
 ## Project Goals Delivered and Milestones:
 
@@ -52,6 +62,16 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
 - **Milestone 4**: Unit Testing of Application using Jasmine/Karma framework.
 
 - **Milestone 5**: End to End Testing of application using Protractor Framework.
+
+## Code Contribution:
+
+- Project Repository: [https://gitlab.com/sosy-lab/software/cpachecker]()
+
+- Commits: [https://github.com/sosy-lab/cpachecker/commits?author=nandanwar@4712c6d2-40bb-43ae-aa4b-fec3f1bdfe4c]()
+
+- Final Product: [You can have a look at my working branch `angularjs-dev` which got merged to master/trunk of the CPAchecker Application](https://gitlab.com/sosy-lab/software/cpachecker/tree/angularjs-dev)
+
+- Deployed Example report: [Link](https://cpachecker.sosy-lab.org/counterexample-report/ErrorPath.0.html)
 
 
 ## Timeline:
@@ -148,17 +168,6 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
 - Added report generator for e2e testing using external plugin
 - Added Unit testing report generator using karma-html-reporter
 - Added documentation for Javascript Report Testing.
-
-
-## Code Contribution:
-
-- Project Repository: [https://gitlab.com/sosy-lab/software/cpachecker]()
-
-- Commits: [https://github.com/sosy-lab/cpachecker/commits?author=nandanwar@4712c6d2-40bb-43ae-aa4b-fec3f1bdfe4c]()
-
-- Final Product: [You can have a look at my working branch `angularjs-dev` which got merged to master/trunk of the CPAchecker Application](https://gitlab.com/sosy-lab/software/cpachecker/tree/angularjs-dev)
-
-- Deployment: [Link]()
 
 
 ## Future Improvements:
