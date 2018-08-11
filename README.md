@@ -6,16 +6,17 @@
 
 ## Introduction and Background: 
  
-- Organisation Name: Software and Computational Systems Lab 
+- Organisation Name: [Software and Computational Systems Lab, LMU Munich, Germany](https://www.sosy-lab.org/) 
 - Project Idea: [CPAchecker - Upgrade of AngularJS, Refactoring User Interface and automated tests for verification report](https://summerofcode.withgoogle.com/projects/#4562331867021312).
+- Project Proposal: https://docs.google.com/document/d/160ILV_sB2MWPtB0YNyJex_Vm5w7HQN8lvrWY1ub9SDE/edit?usp=sharing 
 - Mentor: Philipp Wender
 - Name: Lokesh Nandanwar
 - Country of Residence: India
 - University: National Institute of Technology Durgapur
 - Major: Information Technology
-- Year of Study: Final Year
-- Github: [github.com/lokeshkvn](github.com/lokeshkvn)
-- Website: [lokeshnandanwar.wordpress.com](lokeshnandanwar.wordpress.com)
+- Year of Study: B.TEch, Final Year
+- Github: [github.com/lokeshkvn](https://github.com/lokeshkvn)
+- Website: [lokeshnandanwar.wordpress.com](https://lokeshnandanwar.wordpress.com)
 
 
 <p align="center">
@@ -28,7 +29,8 @@
 CPAchecker is an award-winning open-source framework for the verification of software. It is written in Java and based on a highly modular architecture that allows to develop and combine a wide range of different analyses. CPAchecker is used for verification of the Linux kernel and has helped to find more than 50 bugs in the kernel. 
 CPAchecker produces as result a report about its verification work. This report is a web application based on AngularJS and D3. The basic goal of this project is to upgrade AngularJS and to write tests for the functionality of this report using an appropriate framework for automated tests. 
 
-## Project Goals Delivered:
+
+## Project Goals Delivered and Milestones:
 
 The major goal of this project idea is to upgrade AngularJS and to write tests for the functionality of this report using an appropriate framework for automated tests. The details of all the goals which are delivered for this project is as below: 
  
@@ -52,23 +54,37 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
 - **Milestone 5** => End to End Testing of application using Protractor Framework.
 
 
-## Code Contribution
+## Timeline:
+
+- **Week 1 - Week 4**: 
+
+- **Week 5 - Week 8**: 
+
+- **Week 9 - Week 12**:
+
+
+## Code Contribution:
 
 - Project Repository: [https://gitlab.com/sosy-lab/software/cpachecker]()
 
 - Commits: [https://github.com/sosy-lab/cpachecker/commits?author=nandanwar@4712c6d2-40bb-43ae-aa4b-fec3f1bdfe4c]()
 
+- Final Product: [You can have a look at my working branch `angularjs-dev` which got merged to master/trunk of the CPAchecker Application](https://gitlab.com/sosy-lab/software/cpachecker/tree/angularjs-dev)
+
 - Deployment: [Link]()
 
-## Future Improvements
+
+## Future Improvements:
 
 Unit testing part of some functions of D3.js and Dargre-D3 graph from Milestone-4 is not completed due to the following reason, we can implement that in future:
 - Code archtecture for testing needed is BDD/TDD.
 - There are several nested functions.
 - Dynamic data for generating graph.
-<br/>If we overcome the above drawbacks we can unit test the remaining functions.
+<br/>
+If we overcome the above drawbacks we can unit test the remaining functions.
 
-## Final Words
+
+## Final Words:
 
 GSoC was a wonderful experience for me. I now feel a bit more comfortable with the large codebase to work on. I learned a lot of useful stuff like Docker, GitLab Continous Integration, SVN for version control, and much more stuff. I also learn that automated testing help us a lot to monitor and prevent bugs in our code before it can be merged in upstream repository. I loved working on a really cool open-source project like CPAchecker this summer and am very thankful to Google for providing me this opportunity.
-I will try my best to regularly contribute CPAchecker in a free time. Thanks to Philipp Wender and various others in SoSy Lab team for such a wonderful experience and the knowledge.
+I will try my best to regularly contribute CPAchecker in a free time. Thanks to **Philipp Wender** and various others in SoSy Lab team for such a wonderful experience and the knowledge.
