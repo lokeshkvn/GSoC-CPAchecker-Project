@@ -177,7 +177,7 @@ I worked on the branch `angularjs-dev` during my GSoC. Whenever the feature/task
 In the given timeframe some parts of unit testing is not completed yet. Unit testing of functions involving D3.js graph in ARG and CFA tab is not done. The challenge with unit testing of the mentioned functions was  
 
 - Code will have to changed to the Test Driven Development(TDD) format.
-- Nested functions will have to be removed.
+- Nested functions will have to be refactored.
 - Predefined sample dataset in JSON format must be initialized before testing of these functions.
 
 After we overcome the above things, we can unit test these remaining functions.
