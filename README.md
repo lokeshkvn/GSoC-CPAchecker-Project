@@ -65,7 +65,7 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
 
 ## Code Contribution:
 
-I worked on the branch `angularjs-dev` during my gsoc.Whenever the feature gets completed, I ask for the feedback from the mentor on that feature. After recieving feedback and applying final touch to code, I used to merge my branch with the trunk(master). In this way the whole process was organised through regular merges in trunk and getting feedback to get things done according to plan.
+I worked on the branch `angularjs-dev` during my GSoC. Whenever the feature/task gets completed, I ask for the feedback from the mentor on that feature/task. After recieving feedback and applying final touch to code, I used to merge my branch with the trunk(master). In this way the whole process was organised through regular merges in trunk(master) and getting feedback to get things done according to plan.
 
 - Project Repository: [https://gitlab.com/sosy-lab/software/cpachecker]()
 
