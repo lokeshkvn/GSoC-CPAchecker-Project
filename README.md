@@ -65,6 +65,8 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
 
 ## Code Contribution:
 
+I worked on the branch `angularjs-dev` during my gsoc.Whenever the feature gets completed, I ask for the feedback from the mentor on that feature. After recieving feedback and applying final touch to code, I used to merge my branch with the trunk(master). In this way the whole process was organised through regular merges in trunk and getting feedback to get things done according to plan.
+
 - Project Repository: [https://gitlab.com/sosy-lab/software/cpachecker]()
 
 - Commits: [https://github.com/sosy-lab/cpachecker/commits?author=nandanwar@4712c6d2-40bb-43ae-aa4b-fec3f1bdfe4c]()
@@ -172,12 +174,13 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
 
 ## Future Improvements:
 
-Unit testing part of some functions of D3.js and Dargre-D3 graph from Milestone-4 is not completed due to the following reason, we can implement that in future:
-- Code archtecture for testing needed is BDD/TDD.
-- There are several nested functions.
-- Dynamic data for generating graph.
+In the given timeframe some parts of unit testing is not completed yet. Unit testing of functions involving D3.js graph in ARG and CFA tab is not done. The challenge with unit testing of the mentioned functions was  
 
-If we overcome the above drawbacks we can unit test the remaining functions.
+- Code will have to changed to the Test Driven Development(TDD) format.
+- Nested functions will have to be removed.
+- Predefined sample dataset in JSON format must be initialized before testing of these functions.
+
+After we overcome the above things, we can unit test these remaining functions.
 
 ## Final Words:
 
