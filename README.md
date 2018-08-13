@@ -67,9 +67,9 @@ The major goal of this project idea is to upgrade AngularJS and to write tests f
 
 I worked on the branch `angularjs-dev` during my GSoC. Whenever the feature/task gets completed, I ask for the feedback from the mentor on that feature/task. After recieving feedback and applying final touch to code, I used to merge my branch with the trunk(master). In this way the whole process was organised through regular merges in trunk(master) and getting feedback to get things done according to plan.
 
-- Project Repository: [https://gitlab.com/sosy-lab/software/cpachecker]()
+- Project Repository: [https://gitlab.com/sosy-lab/software/cpachecker](https://gitlab.com/sosy-lab/software/cpachecker)
 
-- Commits: [https://github.com/sosy-lab/cpachecker/commits?author=nandanwar@4712c6d2-40bb-43ae-aa4b-fec3f1bdfe4c]()
+- Commits: [https://github.com/sosy-lab/cpachecker/commits?author=nandanwar@4712c6d2-40bb-43ae-aa4b-fec3f1bdfe4c](https://github.com/sosy-lab/cpachecker/commits?author=nandanwar@4712c6d2-40bb-43ae-aa4b-fec3f1bdfe4c)
 
 - Final Product: [You can have a look at my working branch `angularjs-dev` which got merged to master/trunk of the CPAchecker Application](https://gitlab.com/sosy-lab/software/cpachecker/tree/angularjs-dev)
 
